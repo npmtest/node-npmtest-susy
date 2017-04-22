@@ -1,4 +1,7 @@
-# test coverage for  [susy (v2.2.12)](https://github.com/oddbird/susy#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-susy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-susy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-susy.svg)](https://travis-ci.org/npmtest/node-npmtest-susy)
+# npmtest-susy
+
+#### basic test-coverage for  susy (v2.2.12)  [![npm package](https://img.shields.io/npm/v/npmtest-susy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-susy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-susy.svg)](https://travis-ci.org/npmtest/node-npmtest-susy)
+
 #### Sass power-tools for web layout.
 
 [![NPM](https://nodei.co/npm/susy.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/susy)
@@ -32,28 +35,15 @@
 ```json
 
 {
-    "author": {
-        "name": "Miriam Eric Suzanne"
-    },
-    "bugs": {
-        "url": "https://github.com/oddbird/susy/issues"
-    },
-    "dependencies": {},
+    "name": "susy",
+    "version": "2.2.12",
     "description": "Sass power-tools for web layout.",
-    "devDependencies": {
-        "sass-true": "^2.0.3"
+    "author": "Miriam Eric Suzanne <miriam@oddbird.net>",
+    "main": "sass/_susy.scss",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/oddbird/susy.git"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "644c2441ed00d293287e8d49a016dbf919215953",
-        "tarball": "https://registry.npmjs.org/susy/-/susy-2.2.12.tgz"
-    },
-    "eyeglass": {
-        "exports": "eyeglass-exports.js",
-        "needs": "*"
-    },
-    "gitHead": "6c10e82e69d3cb03a487c99bb752485a25a58113",
-    "homepage": "https://github.com/oddbird/susy#readme",
     "keywords": [
         "layout",
         "grid",
@@ -63,23 +53,21 @@
         "semantic",
         "eyeglass-module"
     ],
-    "license": "BSD-3-Clause",
-    "main": "sass/_susy.scss",
-    "maintainers": [
-        {
-            "name": "mirisuzanne"
-        }
-    ],
-    "name": "susy",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/oddbird/susy.git"
+    "eyeglass": {
+        "exports": "eyeglass-exports.js",
+        "needs": "*"
     },
     "scripts": {
         "test": "rake test"
     },
-    "version": "2.2.12"
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/oddbird/susy/issues"
+    },
+    "devDependencies": {
+        "sass-true": "^2.0.3"
+    },
+    "bin": {}
 }
 ```
 
